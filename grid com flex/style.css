@@ -1,0 +1,279 @@
+section, header, footer{ margin-bottom: 50px; padding-top: 20px; padding-bottom: 20px; /* background-color: #445261; */ }
+
+.container{  width: 1200px; margin: auto; }
+
+.row { display: flex; justify-content: space-around; }
+
+.col { width: 100%; margin-bottom: 16px; margin-top: 16px; margin-left: 5px; margin-right: 5px; padding: 20px 10px;/* border: 1px solid #f1f2f3 */}
+
+/* 
+.row .col:nth-child(1){
+  background-color: rgb(40, 147, 246);
+}
+
+.row .col:nth-child(2){
+  background-color: rgb(143, 213, 216);
+}
+
+.row .col:nth-child(3){
+  background-color: rgb(216, 188, 143);
+}
+
+.row .col:nth-child(4){
+  background-color: rgb(228, 79, 128);
+}
+
+.row .col:nth-child(5){
+  background-color: rgb(216, 143, 212);
+}
+
+.row .col:nth-child(6){
+  background-color: rgb(166, 216, 143);
+}
+
+.row .col:nth-child(7){
+  background-color: rgb(58, 197, 209);
+}
+
+.row .col:nth-child(8){
+  background-color: rgb(78, 192, 103);
+}
+ */
+
+
+/* inicio seção header */
+header{
+  margin: 0px;
+  padding: 0px;
+}
+
+header .row{
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+header .col{
+  padding: 0px;
+  margin: 0px;
+}
+
+header .col .link ul{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+header .col .link ul li a{
+  text-decoration: none; color: #333;
+}
+/* fim seção header */
+
+
+/* inicio seção apresentacao */
+.apresentacao{
+  color: white;
+  height: 500px;
+  background-image: url("img/chamada-bg-01.jpg");
+  background-position: center;
+  margin-bottom: 100px;
+}
+.apresentacao .container{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.apresentacao .row .col .text h1{
+  margin: 0px;
+  text-align: center;
+  font-size: 70px;
+  width: 650px;
+}
+.apresentacao .row .col p{
+  font-size: 25px;
+}
+/* fim seção apresentacao */
+
+
+/* inicio seção servicos */
+.servicos .row{
+  margin-top: -200px;
+}
+
+.servicos .col{
+  width: 370px;
+  padding: 0px;
+  box-shadow: 0px 20px 25px 0px rgb(0 0 0 / 15%);
+}
+
+.servicos .col img{
+  width: 370px; height: 250px;
+}
+
+.servicos .col p{
+  margin: 10px;
+  text-align: center;
+}
+.servicos .col h2{
+  margin: 10px;
+  text-align: center;
+  width: 310px;
+  margin-left: 30px;
+}
+
+.servicos .col .text h2{
+  margin-left: 80px;
+  width: 200px;
+}
+/* fim seção servicos */
+
+
+/* inicio seção compromissos */
+.compromissos .conteudo .col {
+  padding: 0px;
+}
+
+.compromissos .info_compromissos h1{
+  font-size: 45px;
+  margin-top: -30px;
+  margin-bottom: 25px;
+}
+
+.compromissos .info_compromissos p{
+  color: #7e8485;
+  font-size: 18px;
+}
+.compromissos .info_compromissos h6{
+  font-size: 15px;
+}
+
+.compromissos .info_compromissos a{
+  background-color: rgb(255 26 73);
+  text-decoration: none; color: white;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  border-left: 3px solid #273445 ;
+}
+
+.compromissos .conteudo .col img{
+  width: 300px; height: 400px;
+  border-left: 3px solid #273445;
+}
+/* fim seção compromissos */
+
+
+/* inicio seção servicos_extras */
+.servicos_extras{
+  border-top: 20px solid rgba(230, 230, 230, 1);
+  background-color: #273445;
+}
+
+.servicos_extras .entroducao{
+  color: white;
+}
+
+.servicos_extras .entroducao h1{
+  font-size: 50px;
+}
+.servicos_extras .entroducao p{
+  font-size: 20px;
+}
+
+.servicos_extras .conteudo .col{
+  padding: 0px;
+  background-color: white;
+  border-left: 3px solid rgba(255, 26, 73, 1);
+}
+
+.servicos_extras .conteudo .col img{
+  width: 370px; height: 250px;
+}
+
+.servicos_extras .conteudo .col h1{
+  margin-left: 25px;
+}
+.servicos_extras .conteudo .col p{
+  margin-left: 25px;
+  width: 270px;
+}
+/* fim seção servicos_extras */
+
+
+/* inicio seção carrosel */
+.carrosel{
+  margin-left: 60px;
+  width: 1200px;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+.carrosel .col img{
+  margin: 10px;
+  width: 600px; height: 400px;
+}
+/* fim seção carrosel */
+
+
+/* inicio seção noticias */
+.noticias{
+  padding: 0px;
+  margin-bottom: 0px;
+  background-color: #f7f7f7;
+}
+
+.noticias .entroducao .col{
+  padding: 0px;
+}
+
+.noticias .entroducao h1{
+  font-size: 50px;
+}
+
+.noticias .entroducao p{
+  font-size: 20px;
+}
+
+.noticias .conteudo .col img{
+  width: 370px; height: 250px;
+}
+
+.noticias .conteudo .col a{
+  background-color: rgb(255 26 73);
+  text-decoration: none; color: white;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  border-left: 3px solid #273445 ;
+}
+/* fim seção noticias */
+
+
+/* inico seção footer */
+footer{
+  margin-bottom: 0px;
+  background-color:  #273445; 
+}
+
+footer .row{
+  color: white;
+}
+
+footer p{
+  color: #8b9094;
+}
+
+footer .atendimento h4{
+  margin-top : 8px;
+  margin-bottom: 8px;
+}
+
+footer .row .col p a{
+  text-decoration: none;
+  color: #ff1a49;
+}
+/* fim seção footer */
