@@ -6,10 +6,6 @@ section, header, footer{ margin-bottom: 50px; padding-top: 20px; padding-bottom:
 
 .col { width: 100%; margin-bottom: 16px; margin-top: 16px; margin-left: 5px; margin-right: 5px; padding: 20px 10px;/* border: 1px solid #f1f2f3 */}
 
-h1,h2,h4,p,span{
-  font-family: "open sans";
-} 
-
 /* 
 .row .col:nth-child(1){
   background-color: rgb(40, 147, 246);
@@ -268,17 +264,8 @@ footer .row{
   color: white;
 }
 
-footer .row .col h2{
-  font-size: 17px;
-}
-
-footer .row .col p{
-  font-size: 12px;
+footer p{
   color: #8b9094;
-}
-
-footer .row .col h4{
-  font-size: 13px;
 }
 
 footer .atendimento h4{
