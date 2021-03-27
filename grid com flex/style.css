@@ -6,6 +6,10 @@ section, header, footer{ margin-bottom: 50px; padding-top: 20px; padding-bottom:
 
 .col { width: 100%; margin-bottom: 16px; margin-top: 16px; margin-left: 5px; margin-right: 5px; padding: 20px 10px;/* border: 1px solid #f1f2f3 */}
 
+h1,h2,h4,p,span{
+  font-family: "open sans";
+} 
+
 /* 
 .row .col:nth-child(1){
   background-color: rgb(40, 147, 246);
@@ -85,10 +89,14 @@ header .col .link ul li a{
   justify-content: center;
 }
 
+.apresentacao .row .col .text{
+  margin-left: 50px;
+}
+
 .apresentacao .row .col .text h1{
   margin: 0px;
   text-align: center;
-  font-size: 70px;
+  font-size: 60px;
   width: 650px;
 }
 .apresentacao .row .col p{
@@ -117,6 +125,7 @@ header .col .link ul li a{
   text-align: center;
 }
 .servicos .col h2{
+  font-size: 20px;
   margin: 10px;
   text-align: center;
   width: 310px;
@@ -136,7 +145,7 @@ header .col .link ul li a{
 }
 
 .compromissos .info_compromissos h1{
-  font-size: 45px;
+  font-size: 35px;
   margin-top: -30px;
   margin-bottom: 25px;
 }
@@ -181,7 +190,7 @@ header .col .link ul li a{
 }
 
 .servicos_extras .entroducao h1{
-  font-size: 50px;
+  font-size: 30px;
 }
 .servicos_extras .entroducao p{
   font-size: 20px;
@@ -231,7 +240,7 @@ header .col .link ul li a{
 }
 
 .noticias .entroducao h1{
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .noticias .entroducao p{
@@ -264,8 +273,17 @@ footer .row{
   color: white;
 }
 
-footer p{
+footer .row .col h2{
+  font-size: 17px;
+}
+
+footer .row .col p{
+  font-size: 12px;
   color: #8b9094;
+}
+
+footer .row .col h4{
+  font-size: 13px;
 }
 
 footer .atendimento h4{
