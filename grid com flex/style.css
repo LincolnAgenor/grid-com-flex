@@ -1,3 +1,7 @@
+body{
+  margin: 0px;
+}
+
 section, header, footer{ margin-bottom: 50px; padding-top: 20px; padding-bottom: 20px; /* background-color: #445261; */ }
 
 .container{  width: 1200px; margin: auto; }
@@ -80,17 +84,33 @@ header .col .link ul li a{
   color: white;
   height: 500px;
   background-image: url("img/chamada-bg-01.jpg");
-  background-position: center;
-  margin-bottom: 100px;
+  background-position: center center;
+  background-attachment: fixed;
+  position: relative;
 }
 .apresentacao .container{
-  margin-top: 100px;
+  margin-top: 40px;
   display: flex;
   justify-content: center;
 }
 
+.apresentacao .container .row{
+  z-index:1;
+}
+
+.apresentacao:after{
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background: rgb(0 0 0 / 50%);
+  z-index:0;
+}
+
 .apresentacao .row .col .text{
   margin-left: 50px;
+  z-index:1;
 }
 
 .apresentacao .row .col .text h1{
@@ -98,9 +118,11 @@ header .col .link ul li a{
   text-align: center;
   font-size: 60px;
   width: 650px;
+  z-index:1;
 }
 .apresentacao .row .col p{
   font-size: 25px;
+  z-index:1;
 }
 /* fim seção apresentacao */
 
@@ -108,6 +130,7 @@ header .col .link ul li a{
 /* inicio seção servicos */
 .servicos .row{
   margin-top: -200px;
+  position: relative;
 }
 
 .servicos .col{
