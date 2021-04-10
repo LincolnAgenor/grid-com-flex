@@ -81,9 +81,11 @@ header .col .link ul li a{
 
 /* inicio seção apresentacao */
 .apresentacao{
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
   height: 500px;
-  background-image: url("img/chamada-bg-01.jpg");
+  background-image:url("img/chamada-bg-01.jpg");
   background-position: center center;
   background-attachment: fixed;
   position: relative;
